@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/ping", (_req, res) => {
   console.log("someone pinged here");
-  res.send("ponged");
+  res.send("ponged here");
 });
 
 app.listen(PORT, () => {
